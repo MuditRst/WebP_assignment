@@ -1,0 +1,98 @@
+body{
+    font-family: 'Palette Mosaic', cursive;
+    margin: 0;
+    background-color:#cfd6de;
+}
+
+a{
+    text-decoration: none;
+    color: darkorange;
+    padding-right: 25px;
+}
+
+#user-profile{
+    border-radius: 50%;
+    height: 8%;
+    width: 8%;
+}
+#user-name{
+    font-weight: 300;
+    position: absolute;
+    font-size: medium;
+    top: 35px;
+    left: 128px;
+}
+#navBar{
+    position: absolute;
+    left: 600px;
+    top: 50px;
+}
+
+#nav-bar{
+    background-color: teal;
+}
+
+#Content{
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Myskills{
+    position: absolute;
+    right: 300px;
+    float: right;
+}
+
+.qualifications{
+    position: absolute;
+    top: 600px;
+}
+
+table,th,td{
+    width: 85%;
+    border: 1px solid black;
+}
+
+#skill-img{
+    position: absolute;
+    border-radius: 50%;
+    height: 50%;
+    width: 60%;
+    right: 280px;
+    top: 85px;
+}
+
+#qual-img{
+    position: absolute;
+    border-radius: 15px;
+    height: 50%;
+    width: 25%;
+    left: 550px;
+    top: 100px;
+}
+
+#user-img{
+    position: absolute;
+    border-radius: 50%;
+    height: 24%;
+    width: 12%;
+    left: 570px;
+    top: 150px;
+}
+
+#About-me{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+#contact{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+#footer{
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    top: 575px;
+    text-align: center;
+}
