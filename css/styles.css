@@ -1,5 +1,6 @@
 body{
-    font-family: 'Palette Mosaic', cursive;
+    font-family: 'Eczar', serif;
+    font-weight: bold;
     margin: 0;
     background-color:#cfd6de;
 }
@@ -18,7 +19,7 @@ a{
 #user-name{
     font-weight: 300;
     position: absolute;
-    font-size: medium;
+    font-size: large ;
     top: 35px;
     left: 128px;
 }
@@ -57,18 +58,18 @@ table,th,td{
     position: absolute;
     border-radius: 50%;
     height: 50%;
-    width: 60%;
-    right: 280px;
-    top: 85px;
+    width: 70%;
+    right: 275px;
+    top: 105px;
 }
 
 #qual-img{
     position: absolute;
     border-radius: 15px;
-    height: 50%;
+    height: 56%;
     width: 25%;
-    left: 550px;
-    top: 100px;
+    left: 575px;
+    top: 90px;
 }
 
 #user-img{
@@ -90,9 +91,103 @@ table,th,td{
     text-align: center;
 }
 
+textarea {
+    margin: 5px;
+    width:15%;
+    resize: vertical;
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    height:150px;
+}
+
+#liPoint{
+    list-style: none;
+    border: 0;
+    box-shadow:4px 10px 15px rgba(0,0,0,0.1);
+}
+
+#contactform{
+    margin: 5px;
+    border: 0;
+    box-shadow:0 0 5px 4px rgba(0,0,0,0.06);
+    border-radius: 5px;
+}
+
 #footer{
     font-family: 'Oswald', sans-serif;
     position: relative;
     top: 575px;
     text-align: center;
+}
+
+.qualifications{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+}
+
+.qualifications thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.qualifications th,
+.qualifications td {
+    padding: 2px 4px;
+}
+
+.login img{
+    margin: 2px;
+    padding-bottom: 5px;
+    position: relative;
+    left: 35px;
+    width: 12%;
+    height: 12%;
+    border-radius: 50%;
+}
+
+.login{
+    text-align: center;
+    padding: 300px;
+}
+
+#username{
+    margin: 2px;
+    padding: 5px;
+    border: 0;
+    box-shadow:0 0 5px 4px rgba(0,0,0,0.06);
+    border-radius: 5px;
+}
+
+#password{
+    margin: 2px;
+    padding: 5px;
+    position: relative;
+    top: 10px;
+    left: 3.5px;
+    border: 0;
+    box-shadow:0 0 5px 4px rgba(0,0,0,0.06);
+    border-radius: 5px;
+}
+
+#passwordLabel{
+    position: relative;
+    top: 10px;
+}
+
+#submit{
+    position: relative;
+    top: 25px;
+    left: 35px;
+    color:#fff;
+    background-color:#3F51B5;
+    border-radius:10px;
+    width: 10%;
+    border: 3;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.02);
 }
