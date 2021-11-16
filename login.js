@@ -6,9 +6,12 @@ var islogin = false;
 function validate(){
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
-    if ( username == "username" && password == "password"){
-        login = true;
-        window.location.replace("index.html");
+    if(username.length <= 0 || password.length <= 0){
+        alert("Please enter username and password");
+    }
+    if ( username == credArray.username && password == credArray.password){
+        islogin = true;
+        window.location.replace("/");
         return false;
     }else{
         attempt --;
@@ -21,3 +24,5 @@ function validate(){
         }
     }
 }
+
+export default {islogin} ;

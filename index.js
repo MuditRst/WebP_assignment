@@ -1,4 +1,6 @@
+import islogin from './login.js'
+
 
 if(islogin === false){
-    window.location.replace('login.html');
+    window.location.replace('./Login.html');
 }

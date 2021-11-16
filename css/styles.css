@@ -7,7 +7,7 @@ body{
 
 a{
     text-decoration: none;
-    color: darkorange;
+    color: darkslategray;
     padding-right: 25px;
 }
 
@@ -190,4 +190,26 @@ textarea {
     width: 10%;
     border: 3;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.02);
+}
+
+#register{
+    position: relative;
+    left: 400px;
+    top: 200px;
+}
+
+#register-input{
+    margin: 2px;
+    padding: 5px;
+    border: 0;
+    box-shadow:0 0 5px 4px rgba(0,0,0,0.06);
+    border-radius: 5px;
+    
+}
+
+#registerAnchor{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    color: gray;
 }
